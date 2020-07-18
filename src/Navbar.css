@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1 {
+    font-size: xx-large;
+    color: red;
+}
+.links {
+    display: flex;
+    justify-self: flex-end;
+    /* background-color: red; */
+    width: 20%;
+    left: 0%;
+    transform: translateX(345%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.button {
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+
+.pizza-dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.pizza-dog p {
+    margin-top: 0%;
+}
+.pizza-dog img {
+    width: 30%;
+    height: 100%;
+}
