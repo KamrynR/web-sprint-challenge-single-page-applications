@@ -1,10 +1,26 @@
-import React from "react";
+import React, {useState} from 'react';
+import {Route} from 'react-router-dom'
+import Navbar from "./Navbar";
+import PizzaHome from './PizzaHome.js';
+import PizzaCreate from './PizzaCreate.js';
+import PizzaOrder from './PizzaOrder.js';
 
 const App = () => {
+  const [users, setUsers] = useState([]);
+
   return (
     <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
+      <Navbar/>
+
+      <Route exact path='/'>
+        <PizzaHome/>
+      </Route>
+      <Route path='/pizza'>
+        <PizzaCreate users={users} setUsers={setUsers}/>
+      </Route>
+      <Route path='/pizzaorder/'>
+        <PizzaOrder/>
+      </Route>
     </>
   );
 };

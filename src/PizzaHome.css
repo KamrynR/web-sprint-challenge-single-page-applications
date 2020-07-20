@@ -1,0 +1,64 @@
+.banner {
+    background-color: whitesmoke;
+    background-image: url("https://picsum.photos/1920/500");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: 200% 215%;
+    opacity: 80%;
+    width: 90%;
+    height: 26rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5%;
+}
+.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner div p {
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+.banner div a {
+    padding: 2%;
+    padding-left: 11%;
+    padding-right: 11%;
+    margin-top: 3%;
+    background-color: white;
+    /* border: 1px solid grey; */
+    border-radius: 4px;
+    /* box-shadow: 0px 1px 5px black; */
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+  }
+
+  .pizza-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .pizza-list-header {
+      margin-left: 2%;
+  }
+  .pizza-cont {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .pizza-item {
+      margin: 2%;
+      width: 25%;
+  }
+  .pizza-item img {
+      width: 100%;
+      height: auto;
+  }
